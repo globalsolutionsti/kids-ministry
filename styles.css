@@ -1,0 +1,42 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #F4F8FB;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Fredoka One';
+  color: #0B3C5D;
+}
+
+.login, .panel {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #0B3C5D;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
