@@ -1,3 +1,5 @@
+const API_URL = "https://script.google.com/macros/s/AKfycbxqryi1sfN3oJnaty4OtQd80a21MyN0Zq3K1_J7eL3ol_Nk3GgqV40NKGwPfgcZE25D/exec";
+
 function login(){
   const u = document.getElementById("user").value;
   const p = document.getElementById("pass").value;
