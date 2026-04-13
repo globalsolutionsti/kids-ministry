@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ministerio Kids</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Fredoka+One&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="login">
+  <h1>Ministerio Kids</h1>
+
+  <input id="user" placeholder="Usuario" value="admin"/>
+  <input id="pass" type="password" placeholder="Contraseña" value="admin123"/>
+
+  <button onclick="login()">Entrar</button>
+</div>
+
+<div class="panel hidden">
+  <h2>Registro de Niños</h2>
+
+  <input id="nombre" placeholder="Nombre"/>
+  <input id="edad" type="number" placeholder="Edad"/>
+
+  <select id="grupo">
+    <option value="">Grupo</option>
+    <option>Bebés (0-2)</option>
+    <option>Toddlers (3-4)</option>
+    <option>Primaria (5-8)</option>
+    <option>Intermedio (9-11)</option>
+  </select>
+
+  <button onclick="guardar()">Guardar</button>
+
+  <hr>
+
+  <h3>Registros</h3>
+  <div id="lista"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
